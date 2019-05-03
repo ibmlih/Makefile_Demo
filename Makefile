@@ -1,4 +1,4 @@
-factorial: main.o fact.o
+factorial: main.o factorial.o
 	gcc -o factorial main.o fact.o
 
 main.o: main.c factorial.h
