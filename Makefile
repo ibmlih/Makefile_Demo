@@ -1,5 +1,5 @@
 factorial: main.o factorial.o
-	gcc -o factorial main.o fact.o
+	gcc -o factorial main.o factorial.o
 
 main.o: main.c factorial.h
 	gcc -c main.c
